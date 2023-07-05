@@ -1,72 +1,81 @@
-
 html {
     box-sizing: border-box;
 }
+
 body {
     margin: 0 auto;
     max-width: 1600px;
-    width: 100%;
+    width: 100vw;
+    height: 15vh;
     font-family: "Roboto";
     background-color: rgba(167, 40, 0, 1);
-    width: 100%;
- }
+  
+}
+
 header {
     display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    width: 100em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 100%;
+    height: 500px;
 }
 
 h1 {
-    display: block;
-    width: auto;
+ 
     margin: 0 auto;
     color: rgba(255, 255, 255, 1);
     font-size: 120px;
     font-weight: 700;
     line-height: 218px;
     text-align: center;
-    
+
 
 }
+
 .header_container {
-    width: 100%;
-    height: 20vh;
+   width: 100%;
+    height: 282px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: end;
-    
+
 }
 
 .header_text {
-    width: 380px;
+    width: 20em;
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     font-weight: 200px;
     line-height: 29px;
 }
+
 .header_text-number {
     color: rgba(255, 255, 255, 1);
     font-size: 56px;
     font-weight: 800px;
-    
-    
+
+
 }
+
 .img_fox {
     border-radius: 50%;
-    width: 30em;
+    width: 467px;
     position: relative;
-    top: 120px;
+    top: 140px;
     left: -10px;
 }
+
 .container_logo {
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
+
 .weigh {
     font-size: 24px;
     font-weight: 700px;
@@ -78,56 +87,63 @@ h1 {
     height: 240px;
     position: relative;
     top: 50px;
-   
+
 }
- a #logo_text {
+
+a #logo_text {
     width: 205px;
     cursor: pointer;
     padding-left: 25px;
 }
-section {
-    
-    width: 100em;
-    height: 60vh;
+
+main {
+    width: 100%;
+    height: 50vh;
     background-color: rgba(248, 248, 248, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-   
+
 }
 
 .section_text {
-    width: 70%;
+    width: 75%;
     color: rgba(0, 0, 0, 1);
     font-weight: 300px;
     font-size: 24px;
-   
+    padding: 0px 30px;
 }
- .grey {
-background-color: rgba(217, 217, 217, 1);
-font-size: 18px;
-display: block;
-height: 60px;
-padding: 50px auto;
-text-align: center;
-padding-top: 30px;
+
+.grey {
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 18px;
+    display: block;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
 
 
 }
+
 .section_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 70%;
-   
+    width: 75%;
+
 }
+
 ul {
     padding-left: 20px;
 }
+
 .block_list {
     height: 15vh;
     background-color: rgba(217, 217, 217, 1);
     padding: 10px 20px;
 }
+
+    
